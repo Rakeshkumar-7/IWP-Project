@@ -1,0 +1,53 @@
+*{
+    font-family: 'Segoe UI', sans-serif, Arial, Helvetica;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a.btn-primary{
+    color: white;
+    background-color: rgb(55, 136, 241);
+    padding: 10px 20px;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+button.btn-primary{
+    color: white;
+    background-color: rgb(55, 136, 241);
+    padding: 10px 30px;
+    border: none;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: rgb(44, 86, 141);
+}
+
+a.btn-secondary{
+    color: white;
+    background-color: rgb(32, 31, 31);
+    padding: 10px 20px;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+button.btn-secondary{
+    color: white;
+    background-color: rgb(32, 31, 31);
+    padding: 10px 30px;
+    border: none;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn-secondary:hover{
+    background-color: rgb(63, 65, 66)
+}
+
+.black{
+    color: black;
+}

@@ -1,0 +1,28 @@
+.landing{
+    padding: 20px 40px;
+    height: calc(100vh - 81px);
+}
+
+.landing .title-box{
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.landing .title-box .title{
+    font-size: 64px;
+}
+
+.landing .title-box > *{
+    margin: 15px 0;
+}
+
+.landing .title-box .sub-title{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.line{
+    padding: 1px;
+}
